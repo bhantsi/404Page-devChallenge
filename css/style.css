@@ -1,0 +1,16 @@
+body {
+    height: 1080px;
+    width: 1440px;
+    left: -939px;
+    top: -541px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.right-contents {
+    float: right;
+}
+
+.left-contents {
+    float: left;
+}
