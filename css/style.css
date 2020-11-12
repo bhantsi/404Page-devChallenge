@@ -1,14 +1,4 @@
-body {
-        
 
-    position: relative;
-width: 1440px;
-height: 1080px;
-
-background: #FFFFFF;
-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
-border-radius: 12px;
-}
 
 /*Navbar Styles*/
 nav {
@@ -28,68 +18,34 @@ line-height: 25px;
 letter-spacing: -0.08em;
 text-align: left;
 
+padding: 30px;
+
 }
 /*Button Style*/
 button {
+    height: 68px;
+    width: 216px;
+    left: 740px;
+    top: 663px;
+    border-radius: 0px;
+        
     position: absolute;
     width: 216px;
     height: 68px;
     left: 740px;
     top: 663px;
-    
 
-        height: 68px;
-        width: 216px;
-        left: 740px;
-        top: 663px;
-        border-radius: 0px;
-        background: #333333;
-
-}
-
-
- .btn {
-   
-
-height: 21px;
-width: 130px;
-left: 783px;
-top: 687px;
-
-font-family: 'Space Mono', monospace;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 21px;
-letter-spacing: -0.035em;
-text-align: left;
-
-
-position: absolute;
-width: 130px;
-height: 21px;
-left: 783px;
-top: 687px;
-
-font-family: 'Space Mono', monospace;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
-
-letter-spacing: -0.035em;
-text-transform: uppercase;
-
-
+    background: #333333;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
 
 
 }
-.right-contents {
-    float: right;
 
-}
-.left-contents {
+
+ 
+
+.img-class {
             position: absolute;
         left: 5.35%;
         right: 57.21%;
@@ -98,7 +54,7 @@ text-transform: uppercase;
 
 }
 
-.right-contents h2{
+.txt-class h2{
         height: 190px;
     width: 586px;
     left: 735px;
@@ -134,7 +90,7 @@ color: #333333;
 border: 2px solid rgba(255, 255, 255, 1)
 }
 
-.right-contents p {
+.txt-class p {
     height: 108px;
 width: 381px;
 left: 736px;
@@ -189,5 +145,13 @@ left: 607px;
 top: 1024px;
 
 color: rgba(51, 51, 51, 1);
-display: inline-block;    
+
+padding-bottom: 55px;
+    
 }
+footer p {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*Responsive Design Principles*/
